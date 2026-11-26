@@ -1,0 +1,13 @@
+{
+  "name": "pr-review-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pin GitHub pull requests in isolated worktrees and prepare review context for Codex and Claude Code.",
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "bin": {"pr-review-workspace": "./src/cli.js"},
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.js"
+  }
+}
